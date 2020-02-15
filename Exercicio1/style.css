@@ -1,0 +1,11 @@
+#centro{
+    font-family: Helvetica, serif;
+    font-size: 11px;
+    text-align: center;
+    color: darkblue;
+    line-height: 22px; /* espaço duplo */
+}
+
+#borda{
+    border: 2px black solid;
+}

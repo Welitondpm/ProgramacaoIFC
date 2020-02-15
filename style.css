@@ -24,6 +24,7 @@ body{
     font-size: 2.5rem;
     height: 400px;
     width: 70%;
+    border-radius: 20px;
 }
 
 ul.answers{
@@ -37,4 +38,20 @@ ul.answers{
     display: flex;
     background-color: #89c454;
     width: 40%;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.answers .number{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    flex-basis: 30px;
+}
+
+.answers .text{
+    align-self: center;
+    flex: 1;
 }

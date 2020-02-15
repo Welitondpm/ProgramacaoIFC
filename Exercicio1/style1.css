@@ -1,0 +1,39 @@
+table{
+    margin: 0 auto;
+    width: 600px;
+    font-size: 12px;
+    font-family: Arial;
+    color: black;
+    border-spacing: 0px;
+}
+
+thead{
+    color: white;
+    background-color: #78b200;
+}
+
+td{
+    width: 100px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#cidade{
+    color: #0D5188;
+}
+
+#tamanhoposicao{
+    width: 10%;
+}
+
+#quantitativo{
+    width: 15%;
+}
+
+tbody tr:nth-child(even){
+	background-color: rgb(209, 209, 209);
+}
+
+tbody tr:nth-child(odd){
+	background-color: #ffffff;
+}
